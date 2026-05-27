@@ -106,7 +106,7 @@ p:last-child { margin-bottom: 0; }
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
   background: var(--white); box-shadow: var(--shadow-sm); transition: var(--transition);
 }
-.site-header .container { height: 72px; display: flex; align-items: center; justify-content: space-between; }
+.site-header .container { height: 96px; display: flex; align-items: center; justify-content: space-between; }
 
 .nav-logo { display: flex; align-items: center; gap: 0.75rem; }
 .logo-mark {
@@ -117,13 +117,13 @@ p:last-child { margin-bottom: 0; }
 .logo-text .line1 { display: block; font-size: 1rem; font-weight: 800; color: var(--navy); line-height: 1.15; letter-spacing: -0.02em; }
 .logo-text .line2 { display: block; font-size: 1rem; font-weight: 800; color: var(--green); line-height: 1.15; letter-spacing: -0.02em; }
 
-.site-nav { display: flex; align-items: center; gap: 0.15rem; }
+.site-nav { display: flex; align-items: center; gap: 0.25rem; }
 .site-nav a {
-  padding: 0.45rem 0.85rem; border-radius: var(--radius-sm);
-  font-size: 0.9rem; font-weight: 500; color: var(--gray-700); transition: var(--transition);
+  padding: 0.6rem 1.1rem; border-radius: var(--radius-sm);
+  font-size: 1.05rem; font-weight: 700; color: var(--gray-700); transition: var(--transition);
 }
 .site-nav a:hover { color: var(--navy); background: var(--gray-100); }
-.site-nav a.active { color: var(--green); font-weight: 600; background: #e8f5e9; }
+.site-nav a.active { color: var(--green); font-weight: 700; background: #e8f5e9; }
 
 .nav-actions { display: flex; align-items: center; gap: 0.75rem; }
 
@@ -132,7 +132,7 @@ p:last-child { margin-bottom: 0; }
 
 /* Mobile nav overlay */
 .mobile-nav {
-  display: none; position: fixed; top: 72px; left: 0; right: 0; bottom: 0;
+  display: none; position: fixed; top: 96px; left: 0; right: 0; bottom: 0;
   background: var(--white); z-index: 99; padding: 2rem 1.5rem;
   flex-direction: column; gap: 0.5rem; overflow-y: auto;
 }
@@ -146,7 +146,7 @@ p:last-child { margin-bottom: 0; }
 
 /* ── Hero (Homepage) ── */
 .hero {
-  padding-top: 72px; min-height: 100vh; display: flex; align-items: center;
+  padding-top: 96px; min-height: 100vh; display: flex; align-items: center;
   background: linear-gradient(135deg, var(--navy) 0%, #1e4f9e 60%, var(--navy-light) 100%);
   position: relative; overflow: hidden;
 }
@@ -194,7 +194,7 @@ p:last-child { margin-bottom: 0; }
 
 /* ── Page Hero (inner pages) ── */
 .page-hero {
-  padding-top: 72px; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+  padding-top: 96px; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
   padding-bottom: 5rem; text-align: center; position: relative; overflow: hidden;
 }
 .page-hero::after {
