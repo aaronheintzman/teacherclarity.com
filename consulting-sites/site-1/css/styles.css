@@ -108,7 +108,8 @@ p:last-child { margin-bottom: 0; }
 }
 .site-header .container { height: 96px; display: flex; align-items: center; justify-content: space-between; }
 
-.nav-logo { display: flex; align-items: center; gap: 0.75rem; }
+.nav-logo { display: flex; align-items: center; }
+.site-logo-img { height: 72px; width: auto; display: block; }
 .logo-mark {
   width: 40px; height: 40px; border-radius: var(--radius-sm);
   background: var(--navy); display: flex; align-items: center; justify-content: center;
