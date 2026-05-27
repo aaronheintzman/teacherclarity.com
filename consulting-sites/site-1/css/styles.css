@@ -106,10 +106,10 @@ p:last-child { margin-bottom: 0; }
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
   background: var(--white); box-shadow: var(--shadow-sm); transition: var(--transition);
 }
-.site-header .container { height: 160px; display: flex; align-items: center; justify-content: space-between; }
+.site-header .container { height: 320px; display: flex; align-items: center; justify-content: space-between; }
 
 .nav-logo { display: flex; align-items: center; }
-.site-logo-img { height: 144px; width: auto; display: block; }
+.site-logo-img { height: 288px; width: auto; display: block; }
 .logo-mark {
   width: 40px; height: 40px; border-radius: var(--radius-sm);
   background: var(--navy); display: flex; align-items: center; justify-content: center;
@@ -133,7 +133,7 @@ p:last-child { margin-bottom: 0; }
 
 /* Mobile nav overlay */
 .mobile-nav {
-  display: none; position: fixed; top: 160px; left: 0; right: 0; bottom: 0;
+  display: none; position: fixed; top: 320px; left: 0; right: 0; bottom: 0;
   background: var(--white); z-index: 99; padding: 2rem 1.5rem;
   flex-direction: column; gap: 0.5rem; overflow-y: auto;
 }
@@ -147,7 +147,7 @@ p:last-child { margin-bottom: 0; }
 
 /* ── Hero (Homepage) ── */
 .hero {
-  padding-top: 160px; min-height: 100vh; display: flex; align-items: center;
+  padding-top: 320px; min-height: 100vh; display: flex; align-items: center;
   background: linear-gradient(135deg, var(--navy) 0%, #1e4f9e 60%, var(--navy-light) 100%);
   position: relative; overflow: hidden;
 }
@@ -195,7 +195,7 @@ p:last-child { margin-bottom: 0; }
 
 /* ── Page Hero (inner pages) ── */
 .page-hero {
-  padding-top: 160px; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+  padding-top: 320px; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
   padding-bottom: 5rem; text-align: center; position: relative; overflow: hidden;
 }
 .page-hero::after {
