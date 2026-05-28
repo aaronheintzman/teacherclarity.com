@@ -520,8 +520,11 @@ select.form-control {
   .hamburger { display: flex; }
   .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
   .footer-bottom { flex-direction: column; gap: 0.75rem; text-align: center; }
-  .hero { padding-top: 210px; }
-  .page-hero { padding-top: 210px; }
+  .hero { padding-top: 140px; }
+  .page-hero { padding-top: 140px; }
+  .nav-logo { height: 80px; padding: 8px 0; }
+  .site-logo-img { height: 80px; }
+  .mobile-nav { top: 80px; }
   .newsletter-form { flex-direction: column; }
   .cta-buttons { flex-direction: column; align-items: center; }
   .form-row { grid-template-columns: 1fr; }
