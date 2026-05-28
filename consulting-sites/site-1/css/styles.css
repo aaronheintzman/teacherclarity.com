@@ -451,6 +451,7 @@ select.form-control {
 /* ── Footer ── */
 .site-footer { background: var(--gray-900); padding: 4rem 0 2rem; }
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; }
+.footer-logo-img { height: 80px; width: auto; display: block; margin-bottom: 1rem; }
 .footer-brand .logo-text .line1 { color: var(--white); }
 .footer-brand .logo-text .line2 { color: var(--green); }
 .footer-brand p { margin-top: 1rem; font-size: 0.875rem; color: rgba(255,255,255,0.55); line-height: 1.7; }
