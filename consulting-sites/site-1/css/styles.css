@@ -520,14 +520,14 @@ select.form-control {
   .hamburger { display: flex; }
   .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
   .footer-bottom { flex-direction: column; gap: 0.75rem; text-align: center; }
-  .site-header .container { height: 72px; }
-  .hero { padding-top: 90px; min-height: auto; }
+  .site-header .container { height: 84px; }
+  .hero { padding-top: 104px; min-height: auto; }
   .hero .container { padding-top: 1.5rem; padding-bottom: 2rem; }
-  .page-hero { padding-top: 90px; padding-bottom: 2rem; }
+  .page-hero { padding-top: 104px; padding-bottom: 2rem; }
   .page-hero .container { padding-top: 1rem; }
-  .nav-logo { height: 72px; padding: 8px 0; }
-  .site-logo-img { height: 56px; }
-  .mobile-nav { top: 72px; }
+  .nav-logo { height: 84px; padding: 8px 0; }
+  .site-logo-img { height: 68px; }
+  .mobile-nav { top: 84px; }
   .newsletter-form { flex-direction: column; }
   .cta-buttons { flex-direction: column; align-items: center; }
   .form-row { grid-template-columns: 1fr; }
