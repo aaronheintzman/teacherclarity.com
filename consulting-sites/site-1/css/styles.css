@@ -107,9 +107,9 @@ p:last-child { margin-bottom: 0; }
   background: var(--white); box-shadow: var(--shadow-sm); transition: var(--transition);
   overflow: visible;
 }
-.site-header .container { height: 160px; display: flex; align-items: center; justify-content: space-between; }
+.site-header .container { height: 160px; display: flex; align-items: center; justify-content: space-between; padding-left: 0; }
 
-.nav-logo { display: flex; align-items: center; }
+.nav-logo { display: flex; align-items: center; margin-left: 0; padding-left: 0; }
 .site-logo-img { height: 300px; width: auto; display: block; }
 .logo-mark {
   width: 40px; height: 40px; border-radius: var(--radius-sm);
