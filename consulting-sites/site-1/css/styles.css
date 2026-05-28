@@ -105,11 +105,12 @@ p:last-child { margin-bottom: 0; }
 .site-header {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
   background: var(--white); box-shadow: var(--shadow-sm); transition: var(--transition);
+  overflow: visible;
 }
 .site-header .container { height: 160px; display: flex; align-items: center; justify-content: space-between; }
 
 .nav-logo { display: flex; align-items: center; }
-.site-logo-img { height: 144px; width: auto; display: block; }
+.site-logo-img { height: 200px; width: auto; display: block; }
 .logo-mark {
   width: 40px; height: 40px; border-radius: var(--radius-sm);
   background: var(--navy); display: flex; align-items: center; justify-content: center;
