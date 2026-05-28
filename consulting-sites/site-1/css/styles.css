@@ -189,7 +189,7 @@ p:last-child { margin-bottom: 0; }
 .sg-item { text-align: center; }
 .sg-num { display: block; font-size: 2.75rem; font-weight: 800; color: var(--white); line-height: 1; }
 .sg-num em { color: var(--orange); font-style: normal; }
-.sg-label { font-size: 0.8rem; color: rgba(255,255,255,0.65); font-weight: 500; margin-top: 0.35rem; display: block; }
+.sg-label { font-size: 0.88rem; color: rgba(255,255,255,0.85); font-weight: 500; margin-top: 0.35rem; display: block; }
 .sg-divider {
   grid-column: 1 / -1; height: 1px; background: rgba(255,255,255,0.12); margin: 0.25rem 0;
 }
