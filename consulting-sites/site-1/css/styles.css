@@ -105,12 +105,12 @@ p:last-child { margin-bottom: 0; }
 .site-header {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
   background: var(--white); box-shadow: var(--shadow-sm); transition: var(--transition);
-  overflow: visible;
+  overflow: hidden;
 }
-.site-header .container { height: 80px; display: flex; align-items: center; justify-content: space-between; }
+.site-header .container { height: 96px; display: flex; align-items: center; justify-content: space-between; }
 
-.nav-logo { display: flex; align-items: center; justify-content: flex-start; height: 80px; overflow: hidden; padding: 10px 0 8px; }
-.site-logo-img { height: 190px; width: auto; flex-shrink: 0; object-fit: contain; }
+.nav-logo { display: flex; align-items: center; justify-content: flex-start; height: 96px; padding: 10px 0; }
+.site-logo-img { height: 76px; width: auto; flex-shrink: 0; object-fit: contain; }
 .logo-mark {
   width: 40px; height: 40px; border-radius: var(--radius-sm);
   background: var(--navy); display: flex; align-items: center; justify-content: center;
@@ -134,7 +134,7 @@ p:last-child { margin-bottom: 0; }
 
 /* Mobile nav overlay */
 .mobile-nav {
-  display: none; position: fixed; top: 80px; left: 0; right: 0; bottom: 0;
+  display: none; position: fixed; top: 96px; left: 0; right: 0; bottom: 0;
   background: var(--white); z-index: 99; padding: 2rem 1.5rem;
   flex-direction: column; gap: 0.5rem; overflow-y: auto;
 }
@@ -148,7 +148,7 @@ p:last-child { margin-bottom: 0; }
 
 /* ── Hero (Homepage) ── */
 .hero {
-  padding-top: 80px; min-height: 100vh; display: flex; align-items: center;
+  padding-top: 96px; min-height: 100vh; display: flex; align-items: center;
   background: linear-gradient(135deg, var(--navy) 0%, #1e4f9e 60%, var(--navy-light) 100%);
   position: relative; overflow: hidden;
 }
@@ -196,7 +196,7 @@ p:last-child { margin-bottom: 0; }
 
 /* ── Page Hero (inner pages) ── */
 .page-hero {
-  padding-top: 80px; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+  padding-top: 96px; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
   padding-bottom: 5rem; text-align: center; position: relative; overflow: hidden;
 }
 .page-hero::after {
@@ -520,13 +520,13 @@ select.form-control {
   .hamburger { display: flex; }
   .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
   .footer-bottom { flex-direction: column; gap: 0.75rem; text-align: center; }
-  .hero { padding-top: 125px; min-height: auto; }
+  .hero { padding-top: 110px; min-height: auto; }
   .hero .container { padding-top: 1.5rem; padding-bottom: 2rem; }
-  .page-hero { padding-top: 125px; padding-bottom: 2rem; }
+  .page-hero { padding-top: 110px; padding-bottom: 2rem; }
   .page-hero .container { padding-top: 1rem; }
-  .nav-logo { height: 80px; padding: 8px 0; }
-  .site-logo-img { height: 80px; }
-  .mobile-nav { top: 80px; }
+  .nav-logo { height: 72px; padding: 8px 0; }
+  .site-logo-img { height: 56px; }
+  .mobile-nav { top: 72px; }
   .newsletter-form { flex-direction: column; }
   .cta-buttons { flex-direction: column; align-items: center; }
   .form-row { grid-template-columns: 1fr; }
