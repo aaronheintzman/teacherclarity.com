@@ -520,7 +520,8 @@ select.form-control {
   .hamburger { display: flex; }
   .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
   .footer-bottom { flex-direction: column; gap: 0.75rem; text-align: center; }
-  .hero { padding-top: 125px; }
+  .hero { padding-top: 125px; min-height: auto; }
+  .hero .container { padding-top: 1.5rem; padding-bottom: 2rem; }
   .page-hero { padding-top: 125px; padding-bottom: 2rem; }
   .page-hero .container { padding-top: 1rem; }
   .nav-logo { height: 80px; padding: 8px 0; }
