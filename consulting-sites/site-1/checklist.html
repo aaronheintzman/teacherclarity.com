@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The 90-Day Teacher Clarity Implementation Checklist — A Leader's Roadmap for Shifting Campuses from Task-Completion to Visible Learning.">
+  <title>90-Day Implementation Checklist | Teacher Clarity</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .checklist-hero {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+      padding: 3rem 0 3.5rem;
+      text-align: center;
+      padding-top: 120px;
+    }
+    .checklist-hero h1 { color: var(--white); margin-bottom: 0.75rem; }
+    .checklist-hero p { color: rgba(255,255,255,0.8); font-size: 1.05rem; max-width: 620px; margin: 0 auto; }
+
+    .checklist-body { max-width: 820px; margin: 0 auto; padding: 3.5rem 1.5rem 5rem; }
+
+    .checklist-intro {
+      background: var(--gray-50); border-left: 4px solid var(--navy);
+      border-radius: 0 var(--radius-md) var(--radius-md) 0;
+      padding: 1.5rem 1.75rem; margin-bottom: 3rem;
+    }
+    .checklist-intro p { color: var(--text); margin: 0; font-size: 1.02rem; line-height: 1.7; }
+
+    .phase-block { margin-bottom: 3rem; }
+    .phase-header {
+      display: flex; align-items: center; gap: 1rem;
+      padding: 1rem 1.5rem; border-radius: var(--radius-md);
+      margin-bottom: 1.5rem;
+    }
+    .phase-header.green { background: #e8f5e9; border: 1px solid rgba(58,170,53,0.25); }
+    .phase-header.yellow { background: #fffde7; border: 1px solid rgba(247,148,29,0.3); }
+    .phase-header.blue { background: #e3f0fb; border: 1px solid rgba(46,120,199,0.25); }
+
+    .phase-emoji { font-size: 1.75rem; flex-shrink: 0; }
+    .phase-title { margin: 0; font-size: 1.15rem; font-weight: 800; }
+    .phase-header.green .phase-title { color: var(--green-dark); }
+    .phase-header.yellow .phase-title { color: #b45309; }
+    .phase-header.blue .phase-title { color: #1e5fa0; }
+    .phase-subtitle { font-size: 0.85rem; color: var(--text-muted); margin-top: 0.2rem; }
+
+    .checklist-items { display: flex; flex-direction: column; gap: 1rem; }
+    .checklist-item {
+      display: flex; gap: 1rem; align-items: flex-start;
+      background: var(--white); border: 1px solid var(--gray-200);
+      border-radius: var(--radius-md); padding: 1.25rem 1.5rem;
+      box-shadow: var(--shadow-sm); transition: var(--transition);
+    }
+    .checklist-item:hover { box-shadow: var(--shadow-md); transform: translateX(4px); }
+
+    .check-box {
+      width: 22px; height: 22px; border: 2px solid var(--gray-300);
+      border-radius: 5px; flex-shrink: 0; margin-top: 2px;
+      cursor: pointer; transition: var(--transition);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .checklist-item.checked .check-box {
+      background: var(--green); border-color: var(--green);
+    }
+    .checklist-item.checked .check-box::after {
+      content: '✓'; color: white; font-size: 13px; font-weight: 800;
+    }
+    .checklist-item.checked .item-content { opacity: 0.55; }
+    .checklist-item.checked .item-title { text-decoration: line-through; }
+
+    .item-content { flex: 1; }
+    .item-title { font-weight: 700; color: var(--navy); font-size: 0.97rem; margin-bottom: 0.35rem; display: block; }
+    .item-desc { font-size: 0.88rem; color: var(--text-muted); margin: 0; line-height: 1.6; }
+
+    .phase-goal {
+      font-size: 0.9rem; color: var(--text-muted); font-style: italic;
+      margin-bottom: 1.25rem; padding-left: 0.25rem;
+    }
+
+    .print-btn {
+      display: flex; justify-content: center; margin-top: 3rem;
+    }
+
+    @media print {
+      .site-header, .mobile-nav, .print-btn, .site-footer { display: none !important; }
+      .checklist-hero { padding-top: 2rem !important; }
+      .checklist-item { break-inside: avoid; }
+      .phase-block { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="nav-logo" aria-label="Teacher Clarity Home">
+        <img src="images/logo.png" alt="Teacher Clarity" class="site-logo-img">
+      </a>
+      <ul class="site-nav" role="navigation" aria-label="Main navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="resources.html" class="active">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://scienceofclarity.com" class="nav-orange" target="_blank" rel="noopener">Science of Clarity</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-primary">Work With Us</a>
+      </div>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="resources.html" class="active">Resources</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://scienceofclarity.com" style="color:var(--orange-dark);font-weight:700;" target="_blank" rel="noopener">Science of Clarity</a>
+    <a href="contact.html" class="btn btn-primary">Work With Us</a>
+  </nav>
+
+  <main>
+
+    <!-- ── Hero ── -->
+    <section class="checklist-hero">
+      <div class="container">
+        <div class="breadcrumb" style="justify-content:center;margin-bottom:1.25rem;">
+          <a href="index.html" style="color:rgba(255,255,255,0.7);">Home</a>
+          <span class="sep" style="color:rgba(255,255,255,0.4);">›</span>
+          <a href="resources.html" style="color:rgba(255,255,255,0.7);">Resources</a>
+          <span class="sep" style="color:rgba(255,255,255,0.4);">›</span>
+          <span style="color:rgba(255,255,255,0.9);">90-Day Checklist</span>
+        </div>
+        <h1>The 90-Day Teacher Clarity<br>Implementation Checklist</h1>
+        <p>A Leader's Roadmap for Shifting Campuses from Task-Completion to Visible Learning</p>
+      </div>
+    </section>
+
+    <!-- ── Checklist Body ── -->
+    <div class="checklist-body">
+
+      <div class="checklist-intro">
+        <p>Moving from standard-driven compliance to true instructional clarity doesn't happen overnight. Use this phased checklist to guide your leadership team, instructional coaches, and Professional Learning Communities (PLCs) through a successful, sustainable rollout.</p>
+      </div>
+
+      <!-- Phase 1 -->
+      <div class="phase-block">
+        <div class="phase-header green">
+          <span class="phase-emoji">🟢</span>
+          <div>
+            <div class="phase-title">Phase 1: Foundations & Alignment</div>
+            <div class="phase-subtitle">Days 1 – 30</div>
+          </div>
+        </div>
+        <p class="phase-goal">The goal of the first month is to establish a shared vision among leadership and unpack the standards with precision.</p>
+        <div class="checklist-items">
+          <div class="checklist-item" onclick="toggleItem(this)">
+            <div class="check-box"></div>
+            <div class="item-content">
+              <span class="item-title">Secure Leadership Buy-In</span>
+              <p class="item-desc">Ensure your administrative team and instructional coaches can clearly articulate the research behind the framework — specifically the 0.75 effect size and its impact on student achievement.</p>
+            </div>
+          </div>
+          <div class="checklist-item" onclick="toggleItem(this)">
+            <div class="check-box"></div>
+            <div class="item-content">
+              <span class="item-title">Conduct an Instructional Audit</span>
+              <p class="item-desc">Walk through classrooms with a simple focus: If you ask 5 random students what they are learning and why, can they answer without reading a daily task off the board? Establish your school's baseline.</p>
+            </div>
+          </div>
+          <div class="checklist-item" onclick="toggleItem(this)">
+            <div class="check-box"></div>
+            <div class="item-content">
+              <span class="item-title">Deconstruct the Standards</span>
+              <p class="item-desc">Dedicate your initial PLC sessions to "unpacking" upcoming power standards. Ensure grade-level teams can cleanly separate the structural standard into foundational skills, concepts, and learning progressions.</p>
+            </div>
+          </div>
+          <div class="checklist-item" onclick="toggleItem(this)">
+            <div class="check-box"></div>
+            <div class="item-content">
+              <span class="item-title">Define the "What" and "Why"</span>
+              <p class="item-desc">Train staff to draft clear Learning Intentions that describe the transfer of knowledge, completely removing task-based descriptions (e.g., swapping "We are doing a worksheet on fractions" to "We are learning how to partition shapes into equal pieces").</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Phase 2 -->
+      <div class="phase-block">
+        <div class="phase-header yellow">
+          <span class="phase-emoji">🟡</span>
+          <div>
+            <div class="phase-title">Phase 2: Co-Constructing Success</div>
+            <div class="phase-subtitle">Days 31 – 60</div>
+          </div>
+        </div>
+        <p class="phase-goal">The second month shifts the focus to the classroom environment, giving students the exact map to their destination.</p>
+        <div class="checklist-items">
+          <div class="checklist-item" onclick="toggleItem(this)">
+            <div class="check-box"></div>
+            <div class="item-content">
+              <span class="item-title">Establish the Success Criteria</span>
+              <p class="item-desc">Guide teaching teams to create explicit, observable milestones for their Learning Intentions. Use "I can..." statements so students can measure their own progress in real time.</p>
+            </div>
+          </div>
+          <div class="checklist-item" onclick="toggleItem(this)">
+            <div class="check-box"></div>
+            <div class="item-content">
+              <span class="item-title">Differentiate Tasks from Learning</span>
+              <p class="item-desc">Review upcoming lesson plans to ensure that classroom activities and assignments serve as vehicles for the learning intention, not the final goal itself.</p>
+            </div>
+          </div>
+          <div class="checklist-item" onclick="toggleItem(this)">
+            <div class="check-box"></div>
+            <div class="item-content">
+              <span class="item-title">Analyze High-Quality Exemplars</span>
+              <p class="item-desc">Have teachers curate and share "Strong" vs. "Weak" examples of student work with their classes. Let students use the success criteria to critique these anonymous models before starting their own work.</p>
+            </div>
+          </div>
+          <div class="checklist-item" onclick="toggleItem(this)">
+            <div class="check-box"></div>
+            <div class="item-content">
+              <span class="item-title">Calibrate Across Grade Levels</span>
+              <p class="item-desc">Bring PLCs together to look at student work from parallel classes. Ensure that "Success" looks identical across different classrooms teaching the same standard.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Phase 3 -->
+      <div class="phase-block">
+        <div class="phase-header blue">
+          <span class="phase-emoji">🔵</span>
+          <div>
+            <div class="phase-title">Phase 3: Ownership & Evidence</div>
+            <div class="phase-subtitle">Days 61 – 90+</div>
+          </div>
+        </div>
+        <p class="phase-goal">The final phase embeds clarity into the daily habits of students, turning them into active self-assessors who own their growth.</p>
+        <div class="checklist-items">
+          <div class="checklist-item" onclick="toggleItem(this)">
+            <div class="check-box"></div>
+            <div class="item-content">
+              <span class="item-title">Integrate Formative Check-ins</span>
+              <p class="item-desc">Embed brief, intentional formative checks (like exit tickets or fist-to-five ratings) tied directly to the day's specific success criteria.</p>
+            </div>
+          </div>
+          <div class="checklist-item" onclick="toggleItem(this)">
+            <div class="check-box"></div>
+            <div class="item-content">
+              <span class="item-title">Empower Peer and Self-Assessment</span>
+              <p class="item-desc">Train students to use the posted success criteria to give actionable feedback to their peers and accurately track their own progress toward mastery.</p>
+            </div>
+          </div>
+          <div class="checklist-item" onclick="toggleItem(this)">
+            <div class="check-box"></div>
+            <div class="item-content">
+              <span class="item-title">Feedback Loops</span>
+              <p class="item-desc">Ensure teacher feedback shifts away from generalized praise (e.g., "Good job!") and focuses purely on instructional next steps (e.g., "Your thesis meets criteria 1, but look back at criteria 2 to see how you can strengthen your evidence").</p>
+            </div>
+          </div>
+          <div class="checklist-item" onclick="toggleItem(this)">
+            <div class="check-box"></div>
+            <div class="item-content">
+              <span class="item-title">Celebrate Mastery & Pivot</span>
+              <p class="item-desc">Use PLC data tracking to celebrate quick wins where clarity accelerated learning, and systematically pivot instruction for students who need targeted interventions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Print / CTA -->
+      <div class="print-btn">
+        <button onclick="window.print()" class="btn btn-navy" style="margin-right:1rem;">🖨 Print This Checklist</button>
+        <a href="contact.html" class="btn btn-primary">Work With Us →</a>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p>Helping schools put John Hattie's Visible Learning research into practice through instructional coaching, professional development, and leadership support.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html#values">Our Values</a></li>
+            <li><a href="about.html#story">Our Story</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Instructional Coaching</a></li>
+            <li><a href="services.html">Administrator Partnerships</a></li>
+            <li><a href="services.html">Principal Leadership Coaching</a></li>
+            <li><a href="services.html">Teacher Professional Dev</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul class="footer-links">
+            <li><a href="resources.html">Blog & Articles</a></li>
+            <li><a href="resources.html">Free Guides</a></li>
+            <li><a href="resources.html">Webinars</a></li>
+            <li><a href="resources.html">Templates</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Teacher Clarity. All rights reserved.</span>
+        <div style="display:flex;gap:1.5rem;">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    function toggleItem(el) {
+      el.classList.toggle('checked');
+    }
+  </script>
+</body>
+</html>
