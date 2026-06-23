@@ -34,22 +34,51 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "AboutPage",
-    "@id": "https://www.teacherclarity.com/about.html",
-    "url": "https://www.teacherclarity.com/about.html",
-    "name": "About Teacher Clarity",
-    "description": "Teacher Clarity's mission, story, values, and commitment to making Visible Learning research actionable in every K-12 classroom.",
-    "isPartOf": {"@id": "https://www.teacherclarity.com/#website"},
-    "about": {
-      "@type": "Organization",
-      "@id": "https://www.teacherclarity.com/#organization",
-      "name": "Teacher Clarity",
-      "url": "https://www.teacherclarity.com",
-      "email": "aaron@teacherclarity.com",
-      "telephone": "+18053007001",
-      "areaServed": "US",
-      "description": "Visible Learning instructional coaching and professional development for K-12 schools."
-    }
+    "@graph": [
+      {
+        "@type": "AboutPage",
+        "@id": "https://www.teacherclarity.com/about.html",
+        "url": "https://www.teacherclarity.com/about.html",
+        "name": "About Teacher Clarity",
+        "description": "Teacher Clarity's mission, story, values, and commitment to making Visible Learning research actionable in every K-12 classroom.",
+        "isPartOf": {"@id": "https://www.teacherclarity.com/#website"},
+        "about": {"@id": "https://www.teacherclarity.com/#organization"}
+      },
+      {
+        "@type": "Person",
+        "@id": "https://www.teacherclarity.com/#founder",
+        "name": "Aaron Heintzman",
+        "email": "aaron@teacherclarity.com",
+        "telephone": "+18053007001",
+        "jobTitle": "Founder & Lead Instructional Coach",
+        "worksFor": {"@id": "https://www.teacherclarity.com/#organization"},
+        "url": "https://www.teacherclarity.com/about.html",
+        "knowsAbout": [
+          "Teacher Clarity",
+          "Visible Learning",
+          "John Hattie",
+          "Instructional Coaching",
+          "Learning Intentions",
+          "Success Criteria",
+          "K-12 Professional Development",
+          "Principal Leadership Coaching",
+          "Evidence-Based Teaching Practices",
+          "Best Practices for Teachers"
+        ],
+        "description": "Aaron Heintzman is the founder of Teacher Clarity and a leading instructional coach helping K-12 schools implement John Hattie's Visible Learning research across all 50 US states."
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.teacherclarity.com/#organization",
+        "name": "Teacher Clarity",
+        "url": "https://www.teacherclarity.com",
+        "email": "aaron@teacherclarity.com",
+        "telephone": "+18053007001",
+        "areaServed": "US",
+        "founder": {"@id": "https://www.teacherclarity.com/#founder"},
+        "description": "Visible Learning instructional coaching and professional development for K-12 schools."
+      }
+    ]
   }
   </script>
 </head>
