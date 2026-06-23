@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# AI Crawlers — allow indexing for AI search readiness
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Sitemap: https://www.teacherclarity.com/sitemap.xml
