@@ -474,6 +474,10 @@ select.form-control {
 }
 .footer-bottom a { color: rgba(255,255,255,0.5); }
 .footer-bottom a:hover { color: var(--green); }
+.footer-disclaimer {
+  margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.08);
+  font-size: 0.68rem; line-height: 1.6; color: rgba(255,255,255,0.25);
+}
 
 /* ── Mission / Story (About) ── */
 .mission-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
