@@ -1,0 +1,11 @@
+{
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.teacherclarity.com" }],
+      "destination": "https://teacherclarity.com/:path*",
+      "permanent": true
+    }
+  ]
+}
