@@ -202,7 +202,7 @@ p:last-child { margin-bottom: 0; }
 /* ── Page Hero (inner pages) ── */
 .page-hero {
   padding-top: 120px; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
-  padding-bottom: 5rem; text-align: center; position: relative; overflow: hidden;
+  padding-bottom: 2.5rem; text-align: center; position: relative; overflow: hidden;
 }
 .page-hero .container { padding-top: 1.5rem; position: relative; z-index: 1; }
 .page-hero h1 { color: var(--white); margin-bottom: 1rem; }
@@ -467,14 +467,14 @@ select.form-control {
 .footer-links a { font-size: 0.875rem; color: rgba(255,255,255,0.5); transition: var(--transition); }
 .footer-links a:hover { color: var(--green); padding-left: 4px; }
 .footer-bottom {
-  padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.08);
+  padding-top: 2rem;
   display: flex; align-items: center; justify-content: space-between; font-size: 0.82rem;
   color: rgba(255,255,255,0.35);
 }
 .footer-bottom a { color: rgba(255,255,255,0.5); }
 .footer-bottom a:hover { color: var(--green); }
 .footer-disclaimer {
-  margin-top: 1.25rem; padding-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.08);
+  margin-top: 1.25rem; padding-top: 1.25rem;
   font-size: 0.68rem; line-height: 1.6; color: rgba(255,255,255,0.25);
 }
 
@@ -531,7 +531,7 @@ select.form-control {
   .site-header .container { height: 84px; }
   .hero { padding-top: 104px; min-height: auto; }
   .hero .container { padding-top: 1.5rem; padding-bottom: 2rem; }
-  .page-hero { padding-top: 104px; padding-bottom: 5rem; }
+  .page-hero { padding-top: 104px; padding-bottom: 2rem; }
   .page-hero .container { padding-top: 1rem; }
   .nav-logo { height: 84px; padding: 8px 0; }
   .site-logo-img { height: 68px; }
