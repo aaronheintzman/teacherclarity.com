@@ -460,11 +460,14 @@ select.form-control {
 .footer-brand .logo-text .line1 { color: var(--white); }
 .footer-brand .logo-text .line2 { color: var(--green); }
 .footer-brand p { margin-top: 1rem; font-size: 0.875rem; color: rgba(255,255,255,0.55); line-height: 1.7; }
-.footer-col h4 {
+.footer-col h4,
+.footer-network-h {
   font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
   text-transform: uppercase; color: rgba(255,255,255,0.9); margin-bottom: 1.25rem;
 }
+.footer-network-h { margin-top: 1.75rem; }
 .footer-links { display: flex; flex-direction: column; gap: 0.625rem; }
+.footer-network { flex-direction: row; flex-wrap: wrap; gap: 1.25rem; }
 .footer-links a { font-size: 0.875rem; color: rgba(255,255,255,0.5); transition: var(--transition); }
 .footer-links a:hover { color: var(--green); padding-left: 4px; }
 .footer-bottom {
