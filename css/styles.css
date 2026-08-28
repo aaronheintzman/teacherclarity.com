@@ -532,7 +532,7 @@ select.form-control {
   .site-header .container { height: 84px; }
   .hero { padding-top: 104px; min-height: auto; }
   .hero .container { padding-top: 1.5rem; padding-bottom: 2rem; }
-  .page-hero { padding-top: 104px; padding-bottom: 2rem; }
+  .page-hero { padding-top: 104px; padding-bottom: 5rem; }
   .page-hero .container { padding-top: 1rem; }
   .nav-logo { height: 84px; padding: 8px 0; }
   .site-logo-img { height: 68px; }
