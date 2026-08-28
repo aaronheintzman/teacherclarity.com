@@ -88,7 +88,7 @@ if (contactForm) {
       });
 
       if (response.ok) {
-        btn.textContent = '✓ Message Sent!';
+        btn.innerHTML = '<!-- Lucide: check --><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:-0.125em"><path d="M20 6 9 17l-5-5"/></svg> Message Sent!';
         btn.style.background = '#2d8729';
         contactForm.reset();
         setTimeout(() => {
