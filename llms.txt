@@ -2,7 +2,7 @@
 
 > Helping K-12 schools put John Hattie's Visible Learning® research into practice through instructional coaching, professional learning, and leadership support.
 
-Teacher Clarity is an educational consulting company serving school districts across all 50 US states. We specialize in translating John Hattie's Visible Learning® research — with a proven 0.85 effect size, nearly double the threshold of one year of academic growth — into practical classroom strategies through instructional coaching, learning intentions, success criteria, and leadership development.
+Teacher Clarity is an educational consulting company serving K-12 schools and districts. We specialize in translating John Hattie's Visible Learning® research — with a proven 0.85 effect size, nearly double the threshold of one year of academic growth — into practical classroom strategies through instructional coaching, learning intentions, success criteria, and leadership development.
 
 ## What Is Teacher Clarity?
 
@@ -34,7 +34,7 @@ Teacher Clarity is the practice of ensuring students know exactly what they are 
 
 ## Key Pages
 
-- [Home](https://teacherclarity.com/): Overview of Teacher Clarity's mission, services, and impact stats (5,000+ teachers coached, 60+ school districts, 18 states).
+- [Home](https://teacherclarity.com/): Overview of Teacher Clarity's mission, services, and research-based approach.
 - [About](https://teacherclarity.com/about.html): Mission, story, and values behind Teacher Clarity.
 - [Leadership](https://teacherclarity.com/leadership.html): The leadership behind Teacher Clarity. Teacher Clarity is part of Clarity in School, led by Managing Partner Aaron Heintzman; the full profile is at https://clarityinschool.com/the-people.html.
 - [Services](https://teacherclarity.com/services.html): Full description of instructional coaching and professional learning services.
@@ -46,7 +46,6 @@ Teacher Clarity is the practice of ensuring students know exactly what they are 
 - Email: aaron@teacherclarity.com
 - Phone: (805) 300-7001
 - Office Hours: Monday–Friday, 8 AM–5 PM Pacific Time
-- Service Area: All 50 US States
 
 ## Related
 
