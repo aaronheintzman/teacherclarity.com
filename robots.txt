@@ -15,4 +15,3 @@ User-agent: Googlebot
 Allow: /
 
 Sitemap: https://teacherclarity.com/sitemap.xml
-LLMs: https://teacherclarity.com/llms.txt
