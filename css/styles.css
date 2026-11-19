@@ -585,3 +585,20 @@ select.form-control {
 .footer-network-card:hover { border-color: var(--green); background: rgba(255,255,255,0.08); }
 .footer-network-card strong { display: block; color: var(--white); font-size: 0.95rem; margin-bottom: 0.2rem; }
 .footer-network-card span { display: block; font-size: 0.82rem; line-height: 1.5; color: rgba(255,255,255,0.65); }
+
+/* ── Footer: tighter spacing ── */
+.site-footer { padding: 2.5rem 0 1.25rem; }
+.footer-grid { gap: 2rem; margin-bottom: 1.5rem; }
+@media (min-width: 1025px) { .footer-grid { grid-template-columns: 1.5fr 0.9fr 1.1fr 1.7fr; } }
+.footer-col h4, .footer-network-h { margin-bottom: 0.75rem; }
+.footer-brand p { margin-top: 0; font-size: 0.85rem; line-height: 1.6; }
+.footer-network-h { margin-top: 1.1rem; }
+.footer-links { gap: 0.4rem; }
+.footer-network-cards { gap: 0.6rem; }
+.footer-network-card { flex: 1 1 190px; max-width: none; padding: 0.6rem 0.85rem; }
+.footer-network-card strong { font-size: 0.9rem; margin-bottom: 0.1rem; }
+.footer-network-card span { font-size: 0.78rem; line-height: 1.45; }
+.footer-bottom { padding-top: 1.1rem; }
+.footer-disclaimer { margin-top: 0.75rem; padding-top: 0.75rem; }
+.footer-col.footer-network .footer-network-card { display: block; flex: none; margin-bottom: 0.6rem; }
+.footer-col.footer-network .footer-network-card:last-child { margin-bottom: 0; }
