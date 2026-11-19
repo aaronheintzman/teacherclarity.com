@@ -49,4 +49,4 @@ Teacher Clarity is the practice of ensuring students know exactly what they are 
 
 ## Related
 
-- [Science of Clarity](https://www.scienceofclarity.com): Sister site with additional research and resources on the science behind instructional clarity practices.
+- [Science of Clarity](https://scienceofclarity.com): Sister site with additional research and resources on the science behind instructional clarity practices.
