@@ -547,3 +547,27 @@ select.form-control {
   .hero-buttons { flex-direction: column; }
   .grid-4 { grid-template-columns: 1fr; }
 }
+
+/* ── Leadership page ── */
+.lead-grid { display: grid; grid-template-columns: 320px 1fr; gap: 4rem; align-items: center; }
+.lead-photo { margin: 0; }
+.lead-photo img {
+  width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; object-position: center 20%;
+  border-radius: var(--radius-lg); box-shadow: var(--shadow-xl); border-bottom: 6px solid var(--green);
+}
+.lead-photo figcaption { margin-top: 1rem; font-size: 0.9rem; color: var(--text-muted); line-height: 1.5; }
+.lead-photo figcaption strong { display: block; color: var(--navy); font-size: 1.05rem; }
+.lead-eyebrow { display: inline-block; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--green); margin-bottom: 0.75rem; }
+.lead-copy h2 { margin-bottom: 1.25rem; }
+.lead-copy p { margin-bottom: 1.1rem; font-size: 1.05rem; line-height: 1.75; }
+.lead-copy .lead-link-note { font-size: 0.85rem; color: var(--text-muted); margin-top: 0.75rem; margin-bottom: 0; }
+.lead-org {
+  display: flex; gap: 1rem; align-items: flex-start; background: var(--gray-50);
+  border: 1px solid var(--gray-200); border-left: 5px solid var(--orange);
+  border-radius: var(--radius-md); padding: 1.25rem 1.5rem; margin-top: 2rem; max-width: 760px; margin-left: auto; margin-right: auto;
+}
+.lead-org p { margin: 0; font-size: 0.95rem; color: var(--text); }
+@media (max-width: 900px) {
+  .lead-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .lead-photo { max-width: 300px; }
+}
