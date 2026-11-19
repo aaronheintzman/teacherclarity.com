@@ -36,6 +36,7 @@ Teacher Clarity is the practice of ensuring students know exactly what they are 
 
 - [Home](https://teacherclarity.com/): Overview of Teacher Clarity's mission, services, and impact stats (5,000+ teachers coached, 60+ school districts, 18 states).
 - [About](https://teacherclarity.com/about.html): Mission, story, and values behind Teacher Clarity.
+- [Leadership](https://teacherclarity.com/leadership.html): The leadership behind Teacher Clarity. Teacher Clarity is part of Clarity in School, led by Managing Partner Aaron Heintzman; the full profile is at https://clarityinschool.com/the-people.html.
 - [Services](https://teacherclarity.com/services.html): Full description of instructional coaching and professional learning services.
 - [Resources](https://teacherclarity.com/resources.html): Free guides, articles, and video resources for educators.
 - [Contact](https://teacherclarity.com/contact.html): Book a free discovery call.
@@ -49,4 +50,5 @@ Teacher Clarity is the practice of ensuring students know exactly what they are 
 
 ## Related
 
+- [Clarity in School](https://clarityinschool.com): The consulting organization that Teacher Clarity is part of, with the leadership, experience, and directory profile of Managing Partner Aaron Heintzman.
 - [Science of Clarity](https://scienceofclarity.com): Sister site with additional research and resources on the science behind instructional clarity practices.
