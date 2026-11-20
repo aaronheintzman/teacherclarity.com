@@ -602,3 +602,6 @@ select.form-control {
 .footer-disclaimer { margin-top: 0.75rem; padding-top: 0.75rem; }
 .footer-col.footer-network .footer-network-card { display: block; flex: none; margin-bottom: 0.6rem; }
 .footer-col.footer-network .footer-network-card:last-child { margin-bottom: 0; }
+
+/* Longer stat value (e.g. "Early 1970s") stays on one line */
+.sg-num-sm { font-size: 1.7rem; white-space: nowrap; padding: 0.55rem 0; }
